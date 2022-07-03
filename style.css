@@ -3,6 +3,10 @@
     font-family: 'Finlandica', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
     margin: 0px;
+   
+}
+body{
+    background-color:  #FAFAFA; 
 }
 div{
     overflow: auto;
@@ -88,7 +92,8 @@ div{
 .select-property{
 
     display: inline-flex;
-    box-shadow: 5px 10px black;
+    background-color: white;
+    border-radius: 15px;
 }
 .select-property__option{
     padding: 3rem;
