@@ -149,3 +149,20 @@ div{
     white-space: nowrap;
 
 }
+featured_properties{
+    
+
+    display: inline-flex;
+    overflow: hidden;
+
+
+}
+
+.properties{
+    width: 50ppx;
+    margin:100px auto 100px auto;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-left: 40px;
+}
