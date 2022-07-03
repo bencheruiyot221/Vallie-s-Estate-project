@@ -125,3 +125,20 @@ div{
     padding: 50px;
     margin-left: 40px;
 }
+.choose_us{
+   
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: center;
+}
+.image2{
+    width: 60%;
+    float: left;
+    margin-right: 100px;
+}
+.us{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
