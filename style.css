@@ -197,9 +197,14 @@ div{
     background-color: white;
     padding: 50px;
     margin-left: 40px;
+    }
+    .dup{
+        display: inline-flex;
+        overflow: hidden;
+    }
    
 
-    }
+    
     /* text-align: center; 
     padding: 25px 0;  */
     
