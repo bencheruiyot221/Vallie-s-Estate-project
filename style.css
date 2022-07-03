@@ -174,14 +174,14 @@ div{
     white-space: nowrap;
 
 }
-featured_properties{
+/* featured_properties{
     
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-}
+} */
 
 
 
