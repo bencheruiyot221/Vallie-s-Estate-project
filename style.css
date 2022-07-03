@@ -111,9 +111,11 @@ div{
 .works{
     margin: 50px;
 
+
 }
 .home{
     display: inline-flex;
+    overflow: hidden;
 
 
 }
@@ -137,8 +139,13 @@ div{
     margin-right: 100px;
 }
 .us{
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
+    /* clear: both; */
+    /* display: inline-block; */
+    overflow: visible;
     white-space: nowrap;
+}
+.lifestyles{
+    overflow: visible;
+    white-space: nowrap;
+
 }
