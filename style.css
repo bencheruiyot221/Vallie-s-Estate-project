@@ -182,3 +182,15 @@ featured_properties{
     padding: 50px;
     margin-left: 40px;
 }
+.footer{
+    background-color: #0F298B;
+    display: inline-flex;
+
+}
+.f{
+width: 50ppx;
+margin:100px auto 100px auto;
+text-align: center;
+padding: 50px;
+margin-left: 40px;
+}
