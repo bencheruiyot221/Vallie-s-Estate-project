@@ -2,12 +2,11 @@
     font-family: 'Cambay', sans-serif;
     font-family: 'Finlandica', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
    
 }
 body{
     background-color:  #FAFAFA; 
-    margin: 0px;
-
 }
 div{
     overflow: auto;
@@ -90,6 +89,18 @@ div{
     float: right;
     margin-left: 30px;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .p1{
     font-size: 16px;
 
@@ -126,7 +137,7 @@ div{
     margin: 50px;
 
 
-/* }
+}
 .home{
     display: inline-flex;
     overflow: hidden;
@@ -139,7 +150,7 @@ div{
     text-align: center;
     background-color: white;
     padding: 50px;
-    margin-left: 40px; */
+    margin-left: 40px;
 }
 .choose_us{
    
@@ -166,19 +177,32 @@ div{
 featured_properties{
     
 
-    display: flex block;
-    overflow: hidden;
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
+
+
+
 .properties{
-    width: 50ppx;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+
+    /* text-align: center; 
+    padding: 25px 0;  */
+    
+
+    /* width: 50ppx;
     margin:100px auto 100px auto;
     text-align: center;
     background-color: white;
     padding: 50px;
-    margin-left: 40px;
+    margin-left: 40px; */
 }
 .client{
     margin: 50px;
@@ -215,4 +239,17 @@ text-align: center;
 padding: 50px;
 margin-left: 40px;
 color: #FAFAFA;
+}
+.row1{
+            display: grid;
+            display: grid; 
+            grid: auto auto / auto auto auto auto; 
+            grid-gap: 10px; 
+           
+            padding: 10px; 
+}
+.column1{
+
+   
+    text-align: justify; 
 }
