@@ -182,6 +182,13 @@ featured_properties{
     padding: 50px;
     margin-left: 40px;
 }
+    .view{
+
+margin-top: 0px;
+margin-bottom: 200px;
+margin-left: 0%;
+}
+
 .footer{
     background-color: #0F298B;
     display: inline-flex;
@@ -194,6 +201,4 @@ text-align: center;
 padding: 50px;
 margin-left: 40px;
 color: #FAFAFA;
-
-
 }
