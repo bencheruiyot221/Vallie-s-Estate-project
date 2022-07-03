@@ -67,6 +67,17 @@ div{
   font-size: 16px;
 
    }
+   select{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    color: #2549D3;
+    font-weight: bold;
+  }
+  select option { color: black; }
+  select option:first-child{
+    color: green;
+  }
 
 .section1{
     width: 50%;
@@ -92,9 +103,11 @@ div{
     display: inline-flex;
     background-color: white;
     border-radius: 15px;
+
 }
 .select-property__option{
     padding: 3rem;
+    
 }
 .PR{
     width: 55%;
@@ -152,7 +165,7 @@ div{
 featured_properties{
     
 
-    display: inline-flex;
+    display: flex block;
     overflow: hidden;
 
 
