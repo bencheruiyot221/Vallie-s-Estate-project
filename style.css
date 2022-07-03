@@ -2,11 +2,12 @@
     font-family: 'Cambay', sans-serif;
     font-family: 'Finlandica', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
-    margin: 0px;
    
 }
 body{
     background-color:  #FAFAFA; 
+    margin: 0px;
+
 }
 div{
     overflow: auto;
@@ -125,7 +126,7 @@ div{
     margin: 50px;
 
 
-}
+/* }
 .home{
     display: inline-flex;
     overflow: hidden;
@@ -138,7 +139,7 @@ div{
     text-align: center;
     background-color: white;
     padding: 50px;
-    margin-left: 40px;
+    margin-left: 40px; */
 }
 .choose_us{
    
