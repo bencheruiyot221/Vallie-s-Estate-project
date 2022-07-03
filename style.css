@@ -9,7 +9,7 @@ body{
     background-color:  #FAFAFA; 
 }
 div{
-    overflow: auto;
+    /* overflow: auto; */
     text-align: center;
     line-height: 2;
 
@@ -167,7 +167,7 @@ div{
     /* clear: both; */
     /* display: inline-block; */
     overflow: visible;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 .lifestyles{
     overflow: visible;
@@ -199,10 +199,11 @@ div{
     margin-left: 40px;
     }
     .dup{
-        display: inline-flex;
-        overflow: hidden;
+        float: left;
     }
-   
+   .p5{
+    color: #2549D3;
+   }
 
     
     /* text-align: center; 
