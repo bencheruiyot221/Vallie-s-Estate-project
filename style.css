@@ -80,9 +80,7 @@ div{
 }
 .p1{
     font-size: 16px;
-}
-.PR{
-    width: 50%;
+
 
 }
 .fa-youtube{
@@ -97,4 +95,8 @@ div{
 }
 .select-property__option{
     padding: 3rem;
+}
+.PR{
+    width: 55%;
+    margin: 50px;
 }
