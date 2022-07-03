@@ -189,8 +189,11 @@ featured_properties{
 }
 .f{
 width: 50ppx;
-margin:100px auto 100px auto;
+margin:100px 100px 100px 100px;
 text-align: center;
 padding: 50px;
 margin-left: 40px;
+color: #FAFAFA;
+
+
 }
